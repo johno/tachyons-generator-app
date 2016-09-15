@@ -1,0 +1,26 @@
+{
+  "name": "tachyons-generator-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.4.1"
+  },
+  "dependencies": {
+    "is-blank": "^1.1.0",
+    "is-present": "^1.0.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "tachyons": "^4.4.2",
+    "tachyons-cli": "^1.0.6",
+    "tachyons-generator": "0.1.0-beta.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}
